@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkyard - Another idea Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <header class="hero">
+            <p class="hero-kicker" id="kicker">&nbsp;</p>
+            <h1>Sparkyard</h1>
+            <p class="hero-sub"> Tell me what you want</p>
+        </header>
+
+        <details class="connect" id="connect">
+            <summary> 
+                <span class="connect-summary-text">Connection</span>
+                <span class="connect-status" id="connect-status">not connected</span>
+            </summary>
+
+            <div class="connect-body">
+                <div class="field-row">
+                    <label for="name">Your name <span class="optional"></span></label>
+                    <input type="text" id="name" placeholder="so I can call you by your name" autocomplete="off">
+                </div>
+
+                <div class="field-row">
+                    <label for="base-url">API endpoint</label>
+                    <input type="text" id="base-url" placeholder="your API">
+    </div>
+
+    <div class="field-row">
+        <label for="key">API keys\</label>
+        <input type="password" id="key" placeholder="paste your key" autocomplete="off">
+    </div>
+
+    <div class="field-row">
+        <label for="model-text">Models</label>
+        <div class="model-row">
+            <select id="model-text">
+                <option value="">Press "Load models"</option>
+            </select>
+            <button type="button" id="load-models">Load models</button>
+        </div>
+    </div>
+    </div>
+        </details>
+
+        <section class="brief" id="brief">
+            <div class="field-row">
+                <label for="theme">Theme</label>
+                <input type="text" id="theme" placeholder="Yoir wish...">
+            </div>
+
+            <div class="field-grid">
+                <div class="field-row">
+                    <label for="team">Team size</label>
+                    <select id="team">
+                        <option value="1">solo - just me</option>
+                        <option value="2">2 people</option>
+                        <option value="3-4" selected>3-4 people</option>
+                        <option value="5+">5+ people</option>
+                    </select>
+                </div>
+
+                <div class="field-row">
+                    <label for="skill">Skill level</label>
+                    <select id="skill">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Some experience</option>
+                        <option value="experienced">Experienced</option>
+                    </select>
+                </div>
+
+                <div class="field-row">
+                    <label for="time">Time available</label>
+                    <select id="time">
+                        <option value="a few hours">A few hours</option>
+                        <option value="12 hours">12 hours</option>
+                        <option value="24 hours" selected>24 hours</option>
+                        <option value="A full weekend ()36-48 hours">Full weekend</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="generate" class="generate-btn">
+                <span class="btn-label">generate ideas</span>
+                <span class="btn-spinner" aria-hidden="true"><i></i><i></i><i></i></span>
+            </button>
+            <p class="error" id="error" role="alert"></p>
+        </section>
+
+        <section class="log-section">
+            <div class="log-header" id="log-header" hidden>
+                <span id="log-count"></span>
+                <button class="clear-btn" id="clear-btn">Clear</button>
+            </div>
+
+            <div class="empty-state" id="empty-state">
+                <p>Nothing yet. Fill in the brief above and hit enter </p>
+            </div>
+
+            <div class="log" id="log" aria-live="polite"></div>
+        </section>
+    </div>
+
+    <template id="idea-template">
+        <article class="idea">
+            <div class="idea-index"></div>
+            <div class="idea-body">
+                <div class="idea-top">
+                    <h2 class="idea-name"></h2>
+                    <button class="copy-btn" type="button" aria-label="Copy this idea">
+                        <span class="copy-label">Copy</span>
+                    </button>
+                </div>
+                <p class="idea-pitch"></p>
+                <div class="idea-meta">
+                    <div class="meta-block">
+                        <span class="meta-label">Stack</span>
+                        <span class="meta-value idea-stack"></span>
+                    </div>
+                    <div class="meta-block">
+                        <span class="meta-label">If you have time left</span>
+                        <span class="meta-value idea-stretch"></span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </template>
+
+<script src="script.js"></script>
+</body>
+</html>
