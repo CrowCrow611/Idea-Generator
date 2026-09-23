@@ -22,4 +22,7 @@ https://crowcrow611.github.io/Idea-Generator/
 * write your theme, or gist (for multiple themes, please put a "," in between the words)
 *press generate
 
+### Screenshot 
+![Journal](journal-1790096706772.png)
+
 
