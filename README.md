@@ -6,8 +6,8 @@ To generate ideas
 
 SkyYard is an idea Generator, it uses ai to give you ideas... 
 
-## To use
-just click on the pages under deployment, or press 
+## To use 
+press 
 https://crowcrow611.github.io/Idea-Generator/
 
 ### Dependencies
