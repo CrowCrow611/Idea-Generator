@@ -16,7 +16,7 @@ https://crowcrow611.github.io/Idea-Generator/
 
 ### Executing program
 
-* Go to Gemini or grow, similar sites and then get yourself a api key.
+* Go to Gemini or groq, similar sites and then get yourself a api key.
 * Copy your key, and then go to SkyYard and paste it in the key column
 * choose a model
 * write your theme, or gist (for multiple themes, please put a "," in between the words)
