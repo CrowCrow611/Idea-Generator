@@ -24,16 +24,18 @@ Each idea includes,
   
 ### Executing program
 
-## Pick any OpenAi-compatible provider
+* Pick any OpenAi-compatible provider
 * Sign up, and generate an api key, copy it
 * Open SkyYard
-* ### Connect your AI (Open the connection panel and fill in)
+* Connect your AI (Open the connection panel and fill in)
+* Name is optional, its only to greet you
 * API Endpoint is the base url of your provider, for example I will take groq `https://api.groq.com/openai/v1`
 * Click Load Model
-
-* Fill in the constraints, etc
+* Fill in the team, theme, experience, etc
 * Hit generate
 
+### Privacy
+Your api key, is only stored in your browser. 
 
 ### Screenshot 
 ![Screenshot](ss.png)
