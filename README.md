@@ -20,7 +20,7 @@ https://crowcrow611.github.io/Idea-Generator/
 * Copy your key, and then go to SkyYard and paste it in the key column
 * choose a model
 * write your theme, or gist (for multiple themes, please put a "," in between the words)
-*press generate
+* press generate
 
 ### Screenshot 
 ![ss](ss.png)
