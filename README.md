@@ -4,23 +4,36 @@ To generate ideas
 
 ## Description
 
-SkyYard is an idea Generator, it uses ai to give you ideas... 
+Sky-Yard is an Ai powered idea generator, enter the theme, team size, and skill level(i.e, beginner, intermediate, and experienced), and how much time left. The generator gives you 3(In rare cases 2) ideas, based on this.
 
 ## To use 
 press 
 https://crowcrow611.github.io/Idea-Generator/
 
-### Dependencies
+## What it does
+Each idea includes,
+  * Name: A title
+  * Pitch: a short one line concept
+  * Stack: Suggests technologies to build it with
+  * Stretch goal: a feature to add, if you finish early 
 
-* internet, any OpenAI endpoint ai, a good browser...
-
+### Prerequisites
+* A good browser
+* An internet connection
+* A free or paid API from an OPENAI-compatible AI provider
+* 
 ### Executing program
 
-* Go to Gemini or groq, similar sites and then get yourself a api key.
-* Copy your key, and then go to SkyYard and paste it in the key column
-* choose a model
-* write your theme, or gist (for multiple themes, please put a "," in between the words)
-* press generate
+## Pick any OpenAi-compatible provider
+* Sign up, and generate an api key, copy it
+* Open SkyYard
+* ### Connect your AI (Open the connection panel and fill in)
+* API Endpoint is the base url of your provider, for example I will take groq `https://api.groq.com/openai/v1`
+* Click Load Model
+
+* Fill in the constraints, etc
+* Hit generate
+
 
 ### Screenshot 
 ![Screenshot](ss.png)
