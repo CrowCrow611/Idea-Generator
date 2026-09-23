@@ -23,7 +23,7 @@ https://crowcrow611.github.io/Idea-Generator/
 * press generate
 
 ### Screenshot 
-![ss](ss.png)
+![Screenshot](ss.png)
 
 
 
