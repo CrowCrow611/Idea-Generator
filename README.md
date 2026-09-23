@@ -21,7 +21,7 @@ Each idea includes,
 * A good browser
 * An internet connection
 * A free or paid API from an OPENAI-compatible AI provider
-* 
+  
 ### Executing program
 
 ## Pick any OpenAi-compatible provider
