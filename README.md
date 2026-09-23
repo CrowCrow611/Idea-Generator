@@ -23,6 +23,7 @@ https://crowcrow611.github.io/Idea-Generator/
 *press generate
 
 ### Screenshot 
-![Journal](journal-1790096706772.png)
+![ss](ss.png)
+
 
 
