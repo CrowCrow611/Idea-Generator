@@ -51,7 +51,7 @@ function setKickerLine() {
     } else if (h >= 21 && h < 24) {
         line = `it's ${timeStr}${who}, seems like the submmission closes soon...`;
     } else {
-        line = `its ${timeStr}${who}. the yard is open - what are you building?`;
+        line = `its ${timeStr}${who}. the sky is clear, the gates are open, the internet is working, and what are you building?`;
     }
 
     kicker.textContent = line;
@@ -285,12 +285,12 @@ function saveSetting() {
         skill: document.getElementById('skill').value,
         time: document.getElementById('time').value
     };
-    localStorage.setItem('sparkyard', JSON.stringify(s));
+    localStorage.setItem('sky-yard', JSON.stringify(s));
 }
 
 function loadSettings() {
     let s = {};
-    try { s = JSON.parse(localStorage.getItem('sparkyard')) || {}; } catch (e) {}
+    try { s = JSON.parse(localStorage.getItem('sky-yard')) || {}; } catch (e) {}
     if (s.base) baseUrlInput.value = s.base;
     if (s.key) keyInput.value = s.key;
     if (s.name) nameInput.value = s.name;
