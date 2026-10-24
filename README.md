@@ -45,12 +45,13 @@ Each idea includes,
 
 Your api key, is only stored in your browser. 
 
-### Screenshot 
-![Screenshot](ss.png)
-
-###
-Story Time: 
+### Story Time
 if you are wondering why I have developed this, shirry website, it's all only to get ideas, inspirations. 
 
+### Built with
+* html, css and javascript.
+
+### Screenshot 
+![Screenshot](ss.png)
 
 
