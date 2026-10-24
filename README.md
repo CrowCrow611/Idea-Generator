@@ -3,7 +3,7 @@
 
 ## Description
 
-Sky-Yard is an Ai powered idea generator, enter the theme, team size, and skill level(i.e, beginner, intermediate, and experienced), and how much time left. The generator gives you 3(In rare cases 2) ideas, based on this.
+Sky-Yard is an Ai powered idea generator, enter the theme, team size, and skill level(i.e, beginner, intermediate, and experienced), and how much time left. The generator gives you 3(In rare cases 1, or 2) ideas, based on this.
 
 ## To use 
 
