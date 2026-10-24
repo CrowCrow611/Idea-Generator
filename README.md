@@ -1,16 +1,17 @@
 ## SkyYard - An idea Generator 
 
-To generate ideas
 
 ## Description
 
 Sky-Yard is an Ai powered idea generator, enter the theme, team size, and skill level(i.e, beginner, intermediate, and experienced), and how much time left. The generator gives you 3(In rare cases 2) ideas, based on this.
 
 ## To use 
+
 live demo 
 https://crowcrow611.github.io/Idea-Generator/
 
 ## What it does
+
 Each idea includes,
   * Name: A title
   * Pitch: a short one line concept
@@ -18,11 +19,13 @@ Each idea includes,
   * Stretch goal: a feature to add, if you finish early 
 
 ### Prerequisites
+
 * A good browser
 * An internet connection
 * A free or paid API from an OPENAI-compatible AI provider
 
 ### Installing
+
 * clone the repo
 * open index.html in your preferred browser.
   
@@ -39,10 +42,15 @@ Each idea includes,
 * press generate
 
 ### Privacy
+
 Your api key, is only stored in your browser. 
 
 ### Screenshot 
 ![Screenshot](ss.png)
+
+###
+Story Time: 
+if you are wondering why I have developed this, shirry website, it's all only to get ideas, inspirations. 
 
 
 
