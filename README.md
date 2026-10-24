@@ -53,5 +53,3 @@ if you are wondering why I have developed this, shirry website, it's all only to
 
 ### Screenshot 
 ![Screenshot](ss.png)
-
-
