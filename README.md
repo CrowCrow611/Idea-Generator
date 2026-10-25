@@ -45,8 +45,10 @@ Each idea includes,
 
 Your api key, is only stored in your browser. 
 
-### Story Time
-if you are wondering why I have developed this, shirry website, it's all only to get ideas, inspirations. 
+### Why I built this?
+if you are wondering why I have developed this, shirry website, it's all only to get ideas, inspirations... There are days in our life, where are are stuck with no inspiration, you don't feel like doing the same thing, again and again and again, so Sky-Yard was created.
+
+When thinking of the name, I chose Sky-Yard because, As some say Sky is the limit, I did not want to name mine, "Sky is the limit", also I thought "yard", clicked better, and so Sky-Yard was chosen.
 
 ### Built with
 * html, css and javascript.
