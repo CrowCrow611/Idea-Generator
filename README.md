@@ -53,5 +53,8 @@ When thinking of the name, I chose Sky-Yard because, As some say Sky is the limi
 ### Built with
 * html, css and javascript.
 
+### LICENSE
+Mit license
+
 ### Screenshot 
 ![Screenshot](ss.png)
